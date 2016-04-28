@@ -1,7 +1,7 @@
 
 //    Copyright 2014, Raphael Estrada
 //    Author email:  <galaktor@gmx.de>
-//    Project home:  <https://github.com/galaktor/gostwriter>
+//    Project home:  <https://github.com/idupree/gostwriter-as-go-dep>
 //    Licensed under The GPL v3 License (see README and LICENSE files)
 package key
 
@@ -11,7 +11,7 @@ package key
 // the constants below are directly mapped to the key codes supported by
 // the linux kernel version and it's implementation of uinput
 // use provided scripts to auto-generate codes for your kernel.
-// [https://github.com/galaktor/gostwriter/blob/master/key/get_keycodes.sh]
+// [https://github.com/idupree/gostwriter-as-go-dep/blob/master/key/get_keycodes.sh]
 
 /*
   #include <linux/input.h>

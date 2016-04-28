@@ -1,11 +1,11 @@
 //    Copyright 2014, Raphael Estrada
 //    Author email:  <galaktor@gmx.de>
-//    Project home:  <https://github.com/galaktor/gostwriter>
+//    Project home:  <https://github.com/idupree/gostwriter-as-go-dep>
 //    Licensed under The GPL v3 License (see README and LICENSE files)
 package uinput
 
 import(
-	"github.com/galaktor/gostwriter/key"
+	"github.com/idupree/gostwriter-as-go-dep/key"
 )
 
 // a fake uinput implementation to be used in tests

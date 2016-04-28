@@ -1,5 +1,5 @@
 [![Travis](https://travis-ci.org/galaktor/gostwriter.svg)](https://travis-ci.org/galaktor/gostwriter)
-[![GoDoc](https://godoc.org/github.com/galaktor/gostwriter?status.png)](https://godoc.org/github.com/galaktor/gostwriter)
+[![GoDoc](https://godoc.org/github.com/idupree/gostwriter-as-go-dep?status.png)](https://godoc.org/github.com/idupree/gostwriter-as-go-dep)
 
 #What is it?
 It's a simple virtual keyboard for Go that uses /dev/uinput to inject key events, as if from a real keyboard.
@@ -13,7 +13,7 @@ It currently only does keyboard events, and only the ones I needed so far. Can b
 #Installation
 Do the usual go get:
 
-    $> go get github.com/galaktor/gostwriter
+    $> go get github.com/idupree/gostwriter-as-go-dep
 
 ##Key codes
 Since gostwriter uses uinput, you might have to regenerate the key codes it uses to match the kernel you are running on. The key codes are defined as constants in "key/codes.go", and are basically just integers which are sent to the kernel to tell it what key was pressed.
@@ -22,7 +22,7 @@ As keys are added and moved around between kernels, you might want to either add
 
 In the simplest case, you will get gostwriter and it will just build and work. If the keycodes it comes with don't match your kernel, you will get something like this:
 
-    # github.com/galaktor/gostwriter/input
+    # github.com/idupree/gostwriter-as-go-dep/input
     38: error: 'KEY_BRIGHTNESS_AUTO' undeclared (first use in this function)
     38: error: 'KEY_JOURNAL' undeclared (first use in this function)
     38: error: 'KEY_VOICECOMMAND' undeclared (first use in this function)
@@ -43,15 +43,15 @@ I recommend to do this for a simple and quick way to have good key codes, which 
     $gostwriter/key>   ./get_keycodes.sh
     $gostwriter/key>   cd ..
     $gostwriter>       go build
-    $gostwriter/build> go install github.com/galaktor/gostwriter
+    $gostwriter/build> go install github.com/idupree/gostwriter-as-go-dep
 
 #Documentation
 The source code and it's comments should be more than enough to get what's going on within. 
 
 ## godoc
-It renders reasonably well in [GoDoc](http://godoc.org/github.com/galaktor/gostwriter):
+It renders reasonably well in [GoDoc](http://godoc.org/github.com/idupree/gostwriter-as-go-dep):
 
-http://godoc.org/github.com/galaktor/gostwriter
+http://godoc.org/github.com/idupree/gostwriter-as-go-dep
 
 ## examples
 I put a little demo together, it's very straight-forward. Find it at "demo/demo.go".

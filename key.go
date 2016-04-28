@@ -1,12 +1,12 @@
 //    Copyright 2014, Raphael Estrada
 //    Author email:  <galaktor@gmx.de>
-//    Project home:  <https://github.com/galaktor/gostwriter>
+//    Project home:  <https://github.com/idupree/gostwriter-as-go-dep>
 //    Licensed under The GPL v3 License (see README and LICENSE files)
 package gostwriter
 
 import (
-	"github.com/galaktor/gostwriter/key"
-	"github.com/galaktor/gostwriter/uinput"
+	"github.com/idupree/gostwriter-as-go-dep/key"
+	"github.com/idupree/gostwriter-as-go-dep/uinput"
 )
 
 // represents a key on the virtual keyboard
